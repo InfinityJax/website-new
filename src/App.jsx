@@ -4,6 +4,7 @@ import Page from "./Page";
 import Blog from "./components/Blog/Blog";
 import LeetCode from "./components/LeetCode/LeetCode";
 import Error from "./components/Error/404";
+import Random from "./components/Random/Random";
 
 const App = () => {
   //don't forget to add font link in index.html
@@ -17,6 +18,7 @@ const App = () => {
           {/* <Route path="test" element={<Test />} /> */}
           <Route path="*" element={<Error />}></Route>
         </Route>
+        <Route path="randomidk" element={<Random />} />
         <Route path="*" element={<Error />}></Route>
       </Routes>
     </BrowserRouter>
