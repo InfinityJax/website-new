@@ -100,10 +100,17 @@ export const skills = [
 export const workExp = [
   {
     place: "Northeastern University",
-    tenure: "Aug 2023 - Expected May 2025",
+    tenure: "Aug 2023 - Expected Dec 2025",
     role: "Master's Degree at SWE",
     detail:
       "Gained full-stack development abilities and cloud experiences such as AWS and GCP. Did many interesting projects",
+  },
+  {
+    place: "Swapt",
+    tenure: "May 2024 - Dec 2024",
+    role: "Full Stack Software Engineer Intern",
+    detail:
+      "Worked on Swapt online store, gained experience on peeking high traffic. Learnt AWS, Kafka, Redis, Springboot, and mentored new interns",
   },
   {
     place: "RSM China",
@@ -119,13 +126,6 @@ export const workExp = [
     detail:
       "Acknowledged basic computer knowledge and programming skills, accompanied with solid maths and some machine learning basic concepts",
   },
-  {
-    place: "Swapt",
-    tenure: "May 2024 - Dec 2024",
-    role: "Full-Stack Software Engineer",
-    detail:
-      "Served as a Full-Stack Developer on the POS team, spearheading the development of an online store, mentoring new interns.<br>I'm proud of I integrated <strong>Apple Pay</strong> into the website and implemented <strong>WebSocket</strong> for real-time data synchronization.",
-  }
 ];
 
 export const comments = [
